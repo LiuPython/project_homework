@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/5/15 12:48:53。
+     1>项目“E:\homework\homework1\homework1\homework1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /I"D:\VS\gsl-64\include\gsl" /I"D:\VS\gsl-64\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\homework\homework1\x64\Debug\homework1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\VS\gsl-64\lib" /LIBPATH:"D:\VS\gsl-64\lib" "libgsl-0.lib" "libgslcblas-0.lib" "libgsl-0.lib" "libgslcblas-0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\homework\homework1\x64\Debug\homework1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\homework\homework1\x64\Debug\homework1.lib" /MACHINE:X64 x64\Debug\main.obj
+         homework1.vcxproj -> E:\homework\homework1\x64\Debug\homework1.exe
+     1>已完成生成项目“E:\homework\homework1\homework1\homework1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.54
